@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Nikita K. - Senior Backend Engineer, AI agent systems</title>
+  <meta name="description" content="Senior backend engineer building AI tools with Go, Python and PostgreSQL. Public single-node product and open-source coding-agent tools.">
+  <link rel="canonical" href="https://abetor.github.io/">
+  <meta property="og:title" content="Nikita K. - Senior Backend Engineer, AI agent systems">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abetor.github.io/">
+  <meta property="og:description" content="Public single-node AI product, pre-production Go workflows and open-source tools for reviewing coding-agent changes.">
+  <meta property="og:image" content="https://abetor.github.io/og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Preview card for Nikita K., Senior Backend Engineer building AI agent systems.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f5f4a'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='system-ui,sans-serif' font-size='27' font-weight='700' fill='white'%3ENK%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": "https://abetor.github.io/#profile-page",
+    "url": "https://abetor.github.io/",
+    "dateModified": "2026-09-18",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://abetor.github.io/#person",
+      "name": "Nikita K.",
+      "jobTitle": "Senior Backend Engineer",
+      "url": "https://abetor.github.io/",
+      "sameAs": [
+        "https://github.com/abetor"
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="hero">
+      <p class="identity">Nikita K.</p>
+      <h1>Senior Backend Engineer <span class="h1-stack">(Go, Python, PostgreSQL)</span> building AI agent systems</h1>
+      <p class="intro">Backend work on B2B collaboration software since 2019, including PHP and Go services. Since late 2025 I build AI tools and agent systems in Python, FastAPI and PostgreSQL.</p>
+      <ul class="proof-list">
+        <li>AI content generation product - public single-node release, 1,800+ registered users, roughly 100 active</li>
+        <li><a href="https://github.com/abetor/rig">rig</a> - open-source coding-agent tool with an offline acceptance test</li>
+      </ul>
+      <p class="actions"><a class="primary-link" href="#work">View selected work</a> <span class="separator" aria-hidden="true">·</span> <a href="mailto:molaytuh@gmail.com">Email: molaytuh@gmail.com</a> <span class="separator" aria-hidden="true">·</span> <a href="https://github.com/abetor">GitHub: abetor</a></p>
+      <p class="availability">Open to remote contracts.</p>
+    </header>
+
+    <main id="main">
+      <section id="work" aria-labelledby="work-heading">
+        <h2 id="work-heading">Selected work</h2>
+        <div class="section-body">
+          <div class="section-intro">
+            <p>In my recent agent-built systems I own architecture, task definition, review and acceptance; agents implement the code. I also handle release decisions and deployment for the public product. Work code is confidential; the open-source tools are personal projects and public.</p>
+          </div>
+          <div class="case-list">
+            <article>
+              <h3>AI content generation product<span class="status"><span class="dash"> - </span>public single-node release, confidential, 2026-present</span></h3>
+              <p>I built and delivered a Python/FastAPI/PostgreSQL AI content product, taking it from prototype through internal rollout to a public single-node release. I operate the public release: 1,800+ registered users, roughly 100 active. Long-running jobs spend most of their time waiting on external providers. I designed PostgreSQL job execution using <code>FOR UPDATE SKIP LOCKED</code>, checkpoints and idempotency controls, plus a quota ledger and a transactional analytics outbox. I personally reproduced a text-filter false positive, deployed a word-boundary fix and added a regression test that failed before the fix and passed after it.</p>
+            </article>
+            <article>
+              <h3><a href="https://github.com/abetor/rig">rig</a><span class="status"><span class="dash"> - </span>open-source coding-agent orchestration, personal project, 2026</span></h3>
+              <p>rig evaluates coding-agent changes before a human decides whether to accept them. Each task runs in an isolated Git worktree. Reviewers inspect the staged diff; command gates and a schema-constrained judge check the changes before human acceptance. SQLite state supports recovery after interruption. The repository includes a runnable demo, tests in CI and an offline acceptance test that needs no model credentials. Used by two people, with repeated local runs. MIT license.</p>
+            </article>
+            <article>
+              <h3>Pre-production Go workflow platform<span class="status"><span class="dash"> - </span>confidential, 2026</span></h3>
+              <p>I designed a pre-production Go platform for durable content workflows and led its implementation. I specified at-least-once delivery using a PostgreSQL outbox and NATS JetStream, with durable consumers, explicit ack, retry and quarantine paths, and consumer-side deduplication. The design includes JSON Schema and Protobuf contract checks and tests on Testcontainers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="section-body experience">
+          <p class="position"><strong>Software Engineer, later Senior Backend Engineer</strong> - Corporate messenger vendor (B2B SaaS); company name available on request - 2019-present</p>
+          <div class="period">
+            <p><strong>R&amp;D and applied agentic AI - late 2025-present</strong></p>
+            <p>Both confidential projects above belong to this period.</p>
+          </div>
+          <div class="period">
+            <p><strong>Backend, corporate messenger products - 2019-late 2025</strong></p>
+            <p class="stack">Stack: PHP, Go, MySQL, RabbitMQ, Memcached, Docker Compose</p>
+            <ul>
+              <li>Designed an internal logs-and-metrics pipeline with PHP and Go collectors: services sent logs and metrics asynchronously, collectors buffered them in memory and wrote batches to reduce disk and database load.</li>
+              <li>Designed a service that aggregates product activity into daily, weekly and monthly metrics, after architecture review with the tech lead.</li>
+              <li>Diagnosed a notification-routing incident and deployed a hotfix, then checked similar call sites and added tests.</li>
+              <li>Fixed a JSON schema-drift incident by upgrading payloads on read, initializing new fields, saving the current format and adding a unit test for the versioning rule.</li>
+              <li>Worked with product, design, QA and client teams to find missing error states and to argue for client-side batching that limits request frequency.</li>
+              <li>Took on broader engineering responsibility as experienced developers left the team.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="open-source-heading">
+        <h2 id="open-source-heading">More open source</h2>
+        <div class="section-body">
+          <ul class="repo-list">
+            <li><a href="https://github.com/abetor/researcher">researcher</a> - research pipeline that resumes after quota and process failures, tracking sources, claims and evidence.</li>
+            <li><a href="https://github.com/abetor/llm-wiki">llm-wiki</a> - the schema-validated store behind researcher: atomic writes, reference checks, quote verification.</li>
+          </ul>
+          <p>My open-source repositories include runnable demos and tests in CI: <a href="https://github.com/abetor">github.com/abetor</a>.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="section-body skill-list">
+          <p><strong>Languages and framework:</strong> Go, Python, PHP, FastAPI.</p>
+          <p><strong>Production backend:</strong> PostgreSQL, MySQL, RabbitMQ, Memcached, REST APIs, OpenAPI, structured logging, regression testing, incident response.</p>
+          <p><strong>Distributed systems and pre-production platform design:</strong> gRPC/Protobuf, NATS JetStream, Redis, transactional outbox, at-least-once delivery, idempotency, Testcontainers, OpenTelemetry.</p>
+          <p><strong>Engineering practice:</strong> Docker, load testing, coding-agent orchestration, spec-driven development, LLM output quality control, staged-diff review, regression gates.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <div class="section-body">
+          <p>B.Sc., Information Security, 2015-2019</p>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <div class="section-body">
+          <p>Open to remote contracts.</p>
+          <p><a href="mailto:molaytuh@gmail.com">molaytuh@gmail.com</a> <span class="separator" aria-hidden="true">·</span> <a href="https://github.com/abetor">github.com/abetor</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Updated September 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
