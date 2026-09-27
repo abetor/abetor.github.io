@@ -9,20 +9,7 @@
   --code-bg: #efede7;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-  color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111314;
-    --surface: #17191b;
-    --text: #e9e7e2;
-    --muted: #a0a6ae;
-    --faint: #767c85;
-    --rule: #272a2e;
-    --accent: #74c7a4;
-    --code-bg: #1f2225;
-  }
+  color-scheme: light;
 }
 
 *,
