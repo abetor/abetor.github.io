@@ -114,7 +114,7 @@ ul {
   flex: none;
   width: 1.75rem;
   height: 1.75rem;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23177a4e'/%3E%3Cpath d='M16 47V17h8l14 19V17h8v30h-8L24 28v19z' fill='%23fbfaf7'/%3E%3C/svg%3E") center / contain no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23177a4e'/%3E%3Cpath d='M12 48L26 16h12l14 32H42l-3-8H25l-3 8zM28 32h8l-4-10z' fill='%23fbfaf7'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 .hero h1 {
