@@ -1,12 +1,12 @@
 :root {
-  --bg: #fbfaf7;
-  --text: #16181b;
-  --accent: #177a4e;
+  --bg: #ffffff;
+  --text: #17191b;
+  --accent: #2353d9;
   --surface: var(--bg);
   --body: var(--text);
-  --muted: color-mix(in srgb, var(--text) 72%, var(--bg));
-  --rule: color-mix(in srgb, var(--text) 12%, var(--bg));
-  --rule-strong: color-mix(in srgb, var(--text) 20%, var(--bg));
+  --muted: #555b63;
+  --rule: #d9dce2;
+  --rule-strong: var(--text);
   --live: var(--accent);
   --code-bg: color-mix(in srgb, var(--text) 6%, var(--bg));
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -114,7 +114,7 @@ ul {
   flex: none;
   width: 1.75rem;
   height: 1.75rem;
-  background: url("favicon.svg") center / contain no-repeat;
+  background: url("favicon.svg?v=20261007-swiss") center / contain no-repeat;
 }
 
 .hero h1 {
@@ -182,7 +182,7 @@ ul {
   color: var(--bg);
   text-decoration: none;
   padding: 0.6rem 1.05rem;
-  border-radius: 8px;
+  border-radius: 0;
   font-weight: 600;
 }
 
@@ -198,7 +198,7 @@ ul {
   padding: 0.3rem 0.8rem 0.3rem 0.65rem;
   border: 1px solid color-mix(in srgb, var(--live) 35%, transparent);
   background: color-mix(in srgb, var(--live) 8%, var(--bg));
-  border-radius: 999px;
+  border-radius: 0;
   font-size: 0.88rem;
   font-weight: 560;
   color: var(--accent);
@@ -263,9 +263,9 @@ main h2 {
 .case-list article {
   background: var(--surface);
   border: 1px solid var(--rule);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 1.4rem 1.6rem 1.5rem;
-  box-shadow: 0 1px 2px rgb(22 24 27 / 0.04);
+  box-shadow: none;
 }
 
 .case-list h3 {
